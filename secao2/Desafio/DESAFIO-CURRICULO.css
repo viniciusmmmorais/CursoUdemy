@@ -1,0 +1,56 @@
+body {
+    font-family: sans-serif;
+    width: 80%;
+    margin: auto;
+    background-color: #ccc;
+    margin-bottom: 56px;
+}
+h1 {
+    background-color: brown;
+    color: #FFF;
+    text-align: center;
+    font-size: 48px;    
+}
+.brasil-center {
+    text-align: center;
+}
+.button {
+    display: flex;
+    margin-left: 80%;
+    gap: 10px;
+    flex-direction: column;
+}
+.button1 {
+    background-color: bisque;
+    color: #c1aee4;
+    text-align: center;
+    padding: 15px;
+    border-radius: 16px;
+    font-size: 18px;
+    margin-left: 20%;
+    
+}
+h2 {
+    color: #c1aee4;
+    background-color: brown;
+    font-size: 36px;
+    border-bottom: 3px solid goldenrod;
+    padding: 6px;
+    margin-top: 48px;
+    margin-bottom: 12px;
+}
+/* ul ele vai alinhar com as bordas do cursos / esp com o Participação e o Certificado */
+ul {
+    padding-left: 0px;
+}
+/* e quando colocar li com position inside ele vai alinhas os pontinhos das li com a borda de curso e esp */
+li {
+    list-style-position: inside;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
